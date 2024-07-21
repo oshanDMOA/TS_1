@@ -8,7 +8,7 @@ greet = () =>{
     console.log("Hello, World");
 }
 
-const add = (a:number,b:number,c?:number) => {
+const add = (a:number,b:number,c?:number | string) => {
     console.log(a+b);
 }
 
