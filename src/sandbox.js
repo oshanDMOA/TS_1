@@ -1,17 +1,17 @@
-"use strict";
 // let greet = () => {
 //     console.log("Hello, World");
 // }
-let greet;
-greet = () => {
+var greet;
+greet = function () {
     console.log("Hello, World");
 };
-const add = (a, b, c = 10) => {
+var add = function (a, b, c) {
+    if (c === void 0) { c = 10; }
     console.log(a + b);
     console.log(c);
 };
 add(5, 10, '20');
-const minus = (a, b) => {
+var minus = function (a, b) {
     return a + b;
 };
-let results = minus(3, 5);
+var results = minus(3, 5);
