@@ -21,7 +21,7 @@
 // let results = minus(3,5);
 
 
-//Type Aliases
+//Type Aliases_____________________
 
 type StringOrNum = string|number;
 type objWithName = {name: string , uid: StringOrNum };
